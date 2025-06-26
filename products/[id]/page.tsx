@@ -42,8 +42,8 @@ export default function ProductDetail() {
     <div>
       <Navbar />
       <div className="p-8">
-        <h1 className="text-4x2 font-bold mb-6">{product.title}</h1>
-        <img src={product.image} alt={product.title} className="h-48 mb-6" />
+        <h1 className="text-4x2 font-bold mb-8">{product.title}</h1>
+        <img src={product.image} alt={product.title} className="h-48 mb-8" />
         <p className="mb-4"><strong>Category:</strong> {product.category}</p>
         <p className="mb-4"><strong>Price:</strong> ${product.price}</p>
         <p className="mb-8">{product.description}</p>
